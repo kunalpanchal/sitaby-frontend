@@ -17,6 +17,7 @@ import { StoryComponent } from './landing/story/story.component';
 import { TestimonialComponent } from './landing/testimonial/testimonial.component';
 import { WorkingComponent } from './landing/working/working.component';
 import { FeaturesComponent } from './landing/features/features.component';
+import { OutgrowComponent } from './landing/outgrow/outgrow.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FeaturesComponent } from './landing/features/features.component';
     StoryComponent,
     TestimonialComponent,
     WorkingComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    OutgrowComponent
   ],
   imports: [
     BrowserModule,
