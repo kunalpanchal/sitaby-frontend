@@ -1,0 +1,166 @@
+<div id="preloader">
+  <div class="logo">
+    <img src="assets/landing/img/logo-middle.png" alt="SitAby">
+    <span>SitAby</span>
+  </div>
+</div>
+
+<div class="fake-scrollbar"></div>
+
+<app-nav-drawer></app-nav-drawer>
+
+<!-- Intro Section -->
+<section class="intro" [ngStyle]="{'background-image': 'url(\'assets/landing/img/intro/intro-bg2.png\')'}">
+  <div class="container">
+    <div class="column-wrap">
+      <!-- Left Column -->
+      <div class="column c-left">
+        <div class="navi">
+          <div class="nav-toggle nav-toggle-float" data-offcanvas="open">
+                            <span class="waves-effect waves-light">
+                                <i class="flaticon-menu55"></i>
+                            </span>
+          </div>
+        </div>
+        <!-- Scroll for More Button -->
+        <a href="#features" class="scroll-more scroll" data-offset-top="-5">
+          <i class="icon"></i>
+          <span>Scroll for more</span>
+        </a>
+      </div>
+
+      <!-- Middle Column-->
+      <div class="column c-middle">
+        <h1 class="logo">
+          <img src="assets/landing/img/logo-big.png" alt="SitAby">
+          SitAby
+          <span>Posture Proctor</span>
+        </h1>
+        <div class="phone">
+          <img src="assets/landing/img/intro/screen.jpg" alt="App Screen">
+        </div>
+      </div>
+      <!-- Right Column-->
+      <div class="column c-right">
+        <!-- Social Buttons -->
+        <div class="social-buttons text-right">
+          <a href="http://www.twitter.com/sitabyofficial" class="sb-twitter"><i class="bi-twitter"></i></a>
+          <a href="http://www.instagram.com/sitabyofficial" class="sb-instagram"><i class="bi-instagram"></i></a>
+          <a href="http://www.facebook.com/sitabyofficial" class="sb-facebook"><i class="bi-facebook"></i></a>
+        </div>
+        <!-- Features -->
+        <div class="intro-features">
+          <div class="icon-block icon-block-horizontal box-float" data-transition-delay="100">
+            <div class="icon va-middle"><i class="flaticon-screen47"></i></div>
+            <div class="text">
+              <h3>Stay fit 24x7</h3>
+              <p>SitAby monitors your posture in real time and pops the alerts for wrong ones, gauges your longevity
+                too</p>
+            </div>
+          </div>
+          <div class="icon-block icon-block-horizontal box-float" data-transition-delay="300">
+            <div class="icon va-middle"><i class="flaticon-cloud302"></i></div>
+            <div class="text">
+              <h3>Bye bye pain</h3>
+              <p>Making you sit right it really keeps your back in shape: making your day awesome</p>
+            </div>
+          </div>
+          <div class="icon-block icon-block-horizontal box-float" data-transition-delay="500">
+            <div class="icon va-middle"><i class="flaticon-magic20"></i></div>
+            <div class="text">
+              <h3>Carry it everywhere</h3>
+              <p>Not just on one chair, carry SitAby anywhere, where you sit. The power of portability</p>
+            </div>
+          </div>
+        </div>
+        <!-- Download Button -->
+        <!--<div class="download">
+          <p>Back us on</p>
+          <a href="https://www.kickstarter.com/projects/1908426439/sitaby-the-posture-proctor" target="_blank" class="btn btn-default btn-float waves-effect btn-google-play">
+            <img src="assets/landing/img/kickstarter-logo-light.png" alt="Google Play">
+          </a>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="content-wrap">
+  <!-- Navbar -->
+  <!-- Add '.navbar-sticky' to make navbar stuck to top on document scroll -->
+  <header class="navbar navbar-sticky">
+    <div class="container">
+      <!-- Nav Toggle -->
+      <div class="nav-toggle waves-effect waves-light waves-circle" data-offcanvas="open"><i
+        class="flaticon-menu55"></i></div>
+      <!-- Logo -->
+      <a href="#" class="logo scrollup">
+        <img src="assets/landing/img/logo-small.png" alt="SitAby">
+        SitAby
+      </a>
+      <!-- Toolbar -->
+      <div class="toolbar">
+        <a href="http://www.infymakers.com/india/winners.html"
+           class="btn btn-flat btn-light icon-left waves-effect waves-light">InfyMakers Award Winner</a>
+        <!--<a href="https://www.kickstarter.com/projects/1908426439/sitaby-the-posture-proctor"><img src="https://www.kickstarter.com/download/kickstarter-logo-k-color.png"
+                                              class="kickstarter-btn"></a>-->
+        <!-- Social Buttons -->
+        <div class="social-buttons text-right">
+          <a href="http://www.twitter.com/sitabyofficial" class="sb-twitter"><i class="bi-twitter"></i></a>
+          <a href="http://www.instagram.com/sitabyofficial" class="sb-instagram"><i class="bi-instagram"></i></a>
+          <a href="http://www.facebook.com/sitabyofficial" class="sb-facebook"><i class="bi-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </header><!-- Navbar End -->
+
+  <app-features></app-features>
+  <app-app-gallery></app-app-gallery>
+ <app-working></app-working>
+  <app-testimonial></app-testimonial>
+  <app-story></app-story>
+  <app-infymaker></app-infymaker>
+  <app-charts></app-charts>
+  <app-team></app-team>
+  <app-outgrow></app-outgrow>
+  <!--<app-kickstarter></app-kickstarter>-->
+  <app-web-application></app-web-application>
+</div>
+
+<footer class="footer padding-top-3x">
+  <div class="container space-top">
+    <!-- Footer Head -->
+    <div class="footer-head-wrap">
+      <a href="#" class="footer-head waves-effect waves-button waves-float">
+        <div class="logo">
+          <img src="assets/landing/img/footer/footer-logo.png" alt="SitAby">
+        </div>
+        <!--<div class="info">
+          <h2>SitAby on kickstarter</h2>
+          <p>Find out more about us and back us on kickstarter</p>
+        </div>-->
+      </a>
+    </div>
+    <div class="body padding-top-2x">
+      <!-- Copyright -->
+      <div class="column copyright">
+        <p>2017 &copy; <a href="#">SitAby</a>.Posture Proctor</p>
+      </div>
+      <!-- Gadget (Middle Column) -->
+
+      <div class="column hidden-sm hidden-xs">
+        <div class="gadget">
+          <img src="assets/landing/img/footer/screen.png" alt="Screen">
+        </div>
+      </div>
+      <!--<nav class="column footer-nav">-->
+      <!--<ul>-->
+      <!--<li><a href="#">Terms</a></li>-->
+      <!--<li><a href="#">Privacy</a></li>-->
+      <!--<li><a href="#">Security</a></li>-->
+      <!--</ul>-->
+      <!--</nav>-->
+        <!---->
+    </div>
+  </div>
+</footer>
