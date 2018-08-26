@@ -7,6 +7,8 @@
     "build": "ng build",
     "wild": "ng build --prod",
     "build.wild": "ng build --prod --aot --output-hashing none",
+    "gh.build": "ng build --prod --base-href 'https://kunalpanchal.github.io/sitaby-frontend/'",
+    "gh.deploy": "npx ngh --dir=dist/sitaby-frontend --no-silent",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
