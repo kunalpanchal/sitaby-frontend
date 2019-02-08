@@ -1,9 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { routes } from './config/routes/app.routes';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { NavDrawerComponent } from './landing/nav-drawer/nav-drawer.component';
@@ -38,9 +36,7 @@ import { OutgrowComponent } from './landing/outgrow/outgrow.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpModule,
-    routes
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
